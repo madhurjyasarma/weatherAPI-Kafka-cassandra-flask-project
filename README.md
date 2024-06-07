@@ -42,4 +42,4 @@ Before running this application, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather-data-visualization.git
+   git clone https://github.com/madhurjyasarma/weather-data-visualization.git
