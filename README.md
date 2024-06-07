@@ -36,6 +36,7 @@ Before running this application, ensure you have the following installed:
 - Python 3
 - Flask
 - Cassandra
+- Kafka
 
 ### Installation
 
