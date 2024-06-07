@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Results</title>
+</head>
+<body>
+    <h1>Weather Data for {{ city }}</h1>
+    {% if rows|length == 0 %}
+        <p>No data found for {{ city }}.</p>
+    {% else %}
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>City</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Weather</th>
+            </tr>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.city }}</td>
+                <td>{{ row.temperature }}</td>
+                <td>{{ row.humidity }}</td>
+                <td>{{ row.weather }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+    <br>
+    <a href="/">Search Again</a>
+</body>
+</html>
