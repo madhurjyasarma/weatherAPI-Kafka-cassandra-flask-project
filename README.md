@@ -1,4 +1,4 @@
-# Weather Data Visualization
+# Weather Data Pipeline
 
 This project is a Flask web application that retrieves weather data from a Cassandra database and visualizes it using Chart.js. Users can search for weather data by city name, and the application displays temperature and humidity trends over time in a line chart.
 
@@ -24,7 +24,6 @@ This web application provides a simple and interactive way to visualize weather 
 ## Features
 
 - Search for weather data by city name.
-- Visualize temperature and humidity trends over time using Chart.js.
 - Responsive and interactive user interface.
 - Integration with Cassandra for data storage.
 
